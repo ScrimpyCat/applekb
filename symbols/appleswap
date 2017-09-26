@@ -1,0 +1,9 @@
+partial modifier_keys
+xkb_symbols "swap_cmd_ctrl" {
+    key <LWIN> { [ Control_L ] };
+    key <RWIN> { [ Super_L ] };
+    key <LCTL> { [ Meta_L ] };
+    modifier_map Control { <LWIN> };
+    modifier_map Mod3 { <LCTL> };
+    modifier_map Mod4 { <RWIN> };
+};
